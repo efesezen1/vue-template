@@ -6,10 +6,14 @@ export default defineConfig({
    plugins: [
       vue(),
       Components({
-        dts:true,
+         dts: true,
       }),
       AutoImport({
-         imports: ['vue', '@vueuse/core'],
+         imports: [
+            'vue',
+            '@vueuse/core',
+            { '@tanstack/vue-query': ['useQuery', 'useQueryClient'] },
+         ],
          //  resolvers: [ElementPlusResolver()],
       }),
    ],

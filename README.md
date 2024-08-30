@@ -12,7 +12,4 @@ This is a Vue starter template that provides a basic setup for developing Vue.js
 
 ## Installation
 
-To install the Vue Starter Template, run the following command:
-
-```bash
-npm install vue-starter-template
+Clone this repo and get things done.
